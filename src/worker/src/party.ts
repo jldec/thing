@@ -110,8 +110,10 @@ export class Party extends Server<Env> {
       }
 
       try {
+        // @ts-expect-error
         const aiMessageStream = (await this.env.AI.run('@cf/meta/llama-3.1-8b-instruct-fp8-fast', {
           stream: true,
+          max_tokens: 2048,
           messages: [
             systemMessage,
             ...this.messages.map((m) => ({

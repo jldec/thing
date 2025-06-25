@@ -14,7 +14,7 @@
     "@std/front-matter": "npm:@jsr/std__front-matter@1.0.8",
     "@std/media-types": "npm:@jsr/std__media-types@^1.1.0",
     "@std/path": "npm:@jsr/std__path@^1.0.8",
-    "eventsource-parser": "^3.0.1",
+    "eventsource-parser": "^3.0.2",
     "hono": "^4.7.5",
     "markdown-it": "^14.1.0",
     "nanoid": "^5.1.5",
